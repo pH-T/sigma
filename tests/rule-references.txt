@@ -3473,3 +3473,12 @@ https://docs.microsoft.com/en-us/azure/role-based-access-control/resource-provid
 https://learn.microsoft.com/en-us/windows/win32/wmisdk/connecting-to-wmi-remotely-starting-with-vista
 https://taiwan.postsen.com/business/88601/Hamas-hackers-use-data-destruction-software-BiBi-which-consumes-a-lot-of-processor-resources-to-wipe-Windows-computer-data--iThome.html
 https://www.swascan.com/cactus-ransomware-malware-analysis/
+https://github.com/redcanaryco/atomic-red-team/blob/4d6c4e8e23d465af7a2388620cfe3f8c76e16cf0/atomics/T1082/T1082.md
+https://cydefops.com/vscode-data-exfiltration
+https://github.com/fortra/impacket/blob/edef71f17bc1240f9f8c957bbda98662951ac3ec/examples/smbexec.py#L60
+http://www.solomonson.com/posts/2010-07-09-reading-eventviewer-command-line/
+https://www.assetnote.io/resources/research/citrix-bleed-leaking-session-tokens-with-cve-2023-4966
+https://www.malwarebytes.com/blog/detections/pum-optional-nodispcpl
+https://unit42.paloaltonetworks.com/cloaked-ursa-phishing/
+https://github.com/ForceFledgling/CVE-2023-22518
+https://www.linkedin.com/pulse/guntior-story-advanced-bootkit-doesnt-rely-windows-disk-baranov-wue8e/
