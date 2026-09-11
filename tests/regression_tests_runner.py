@@ -394,8 +394,9 @@ def run_json_checker(
             return False, all_output
         if match_count > expected_count:
             print(
-                f"  Warning: {rule_id}: Got {match_count} matches but only {expected_count} expected - consider updating match_count in info.yml"
+                f"  Error: {rule_id}: Got {match_count} matches but only {expected_count} expected - consider updating match_count in info.yml"
             )
+            return False, all_output
         return True, all_output
 
     return match_count > 0, all_output
@@ -566,8 +567,8 @@ def run_tests(
                     success = False
                 else:
                     if match_count > expected_count:
-                        print(f"  Warning: {rule_id}: Got {match_count} matches but only {expected_count} expected - consider updating match_count in info.yml")
-                    success = True
+                        print(f"  Error: {rule_id}: Got {match_count} matches but only {expected_count} expected - consider updating match_count in info.yml")
+                    success = False
             else:
                 success = match_count > 0
 
